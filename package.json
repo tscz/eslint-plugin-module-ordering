@@ -2,9 +2,10 @@
   "name": "eslint-plugin-module-ordering",
   "version": "0.0.1",
   "description": "Eslint Plugin that enforces an opinionated structure in typescript modules",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "ts-node enforce-exports-on-top.test.ts"
+    "build": "tsc",
+    "test": "ts-node ./src/enforce-exports-on-top.test.ts"
   },
   "keywords": [],
   "author": "",
